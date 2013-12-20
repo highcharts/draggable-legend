@@ -64,6 +64,9 @@
                             height: legend.legendHeight
                         }, options), true, 'spacingBox');
                     }
+                    if (chart.pointer.selectionMarker) {
+                        chart.pointer.selectionMarker = chart.pointer.selectionMarker.destroy();
+                    }
                     
                 }
             });
