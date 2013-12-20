@@ -3,7 +3,6 @@
  *
  * Author: Torstein Hønsi
  * License: MIT License
- * Last revision: 2013-02-14
  * Requires: Highcharts 3.0+
  *
  * Usage: Set draggable:true and floating:true in the legend options. The legend
