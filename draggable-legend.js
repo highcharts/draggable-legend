@@ -3,6 +3,7 @@
  *
  * Author: Torstein Hønsi
  * License: MIT License
+ * Version: 1.3.4
  * Requires: Highcharts 3.0+
  *
  * Usage: Set draggable:true and floating:true in the legend options. The legend
@@ -45,6 +46,9 @@
                 e = chart.pointer.normalize(e);
                 var draggedX = e.chartX - downX,
                     draggedY = e.chartY - downY;
+
+                // Stop touch-panning the page
+                e.preventDefault();
 
                 options.x = optionsX + draggedX;
                 options.y = optionsY + draggedY;
