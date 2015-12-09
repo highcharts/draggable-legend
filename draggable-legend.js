@@ -3,7 +3,7 @@
  *
  * Author: Torstein Hønsi
  * License: MIT License
- * Version: 1.3.4
+ * Version: 1.3.5
  * Requires: Highcharts 3.0+
  *
  * Usage: Set draggable:true and floating:true in the legend options. The legend
@@ -63,6 +63,7 @@
                         width: legend.legendWidth,
                         height: legend.legendHeight
                     }, options), true, 'spacingBox');
+                    legend.positionCheckboxes();
                 }
                 if (chart.pointer.selectionMarker) {
                     chart.pointer.selectionMarker = chart.pointer.selectionMarker.destroy();
