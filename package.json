@@ -4,9 +4,9 @@
         "LICENSE"
     ],
     "name": "Draggable-Legend",
-    "version": "1.3.8",
+    "version": "1.3.9",
     "description": "Using this plugin lets the user move the legend around in the chart.",
-    "main": "draggable-legend.js.js",
+    "main": "draggable-legend.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/highcharts/draggable-legend.git"
